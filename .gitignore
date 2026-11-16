@@ -1,0 +1,28 @@
+#Persistent vector database
+chroma_data/
+
+#Python-generated files
+__pycache__/
+*.pyc
+
+#Local virtual environments
+venv/
+.venv/
+
+#Python cache files
+*.pyo/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# macOS generated files
+.DS_Store
+
+# Streamlit secrects
+.streamlit/secrets.toml
+
+# Testing and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
